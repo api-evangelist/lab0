@@ -1,7 +1,31 @@
 aid: lab0
 name: Lab0
-description: Lab0 is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Lab0 (lab0.ai) is a San Francisco company in the Y Combinator Spring
+  2026 batch building an "AI forward-deployed engineer" for B2B SaaS: agentic systems
+  that automate enterprise software implementation and post-sales delivery. The platform
+  runs discovery, solution design, configuration, custom integration build, testing
+  and go-live in parallel, with the stated goal of compressing 3-12 month deployment
+  cycles down to weeks. Its connector agents profile a customer instance (tables, fields,
+  auth model, processes) to produce a connector spec, then generate the integration,
+  auth, field mappings, callbacks and write-back workflows as staged changes a human
+  team reviews, with every write previewed as a controlled dry-run before it touches
+  the customer instance. Named target systems are ServiceNow, SAP, Salesforce, Workday
+  and Adobe AEM, plus custom APIs. As of this profile Lab0 is pre-launch as a developer
+  platform: it publishes a marketing site and an llms.txt, but no public API, developer
+  portal, documentation, SDKs, or self-serve sign-up. It is sold as a managed engagement
+  via founder contact and demo booking.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://lab0.ai/favicon.svg
 url: https://raw.githubusercontent.com/api-evangelist/lab0/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +33,39 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: Spring 2026
+x-yc-profile: https://www.ycombinator.com/companies/lab0
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Enterprise Software
+- Implementation
+- Integration
+- Professional Services
+- ServiceNow
+- SAP
+- Workday
+- Salesforce
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/lab0-domain-security.yml
+- type: Website
+  url: https://lab0.ai/
+- type: LLMsTxt
+  url: llms/lab0-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
