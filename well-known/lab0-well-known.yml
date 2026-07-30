@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of https://lab0.ai/.well-known/*
+host: https://lab0.ai
+summary: >-
+  Lab0 publishes no /.well-known/ discovery surface. Every RFC 9116 / OIDC /
+  RFC 8414 / api-catalog / ai-plugin path returned 404. Recorded here as a
+  negative probe result so a later re-run can detect a change. No WellKnown or
+  SecurityTxt pointer is wired into apis.yml because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+related:
+- path: /robots.txt
+  status: 200
+  note: allow-all crawler policy, points at https://lab0.ai/sitemap-index.xml
+- path: /llms.txt
+  status: 200
+  file: ../llms/lab0-llms.txt

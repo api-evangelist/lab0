@@ -1,0 +1,14 @@
+# lab0
+
+> lab0 builds AI agents that turn enterprise software implementation from a consulting-heavy deployment into a self-serve product. Compress timelines from 3–12 months to weeks.
+
+This file is generated from the site's source content. It is a curated index for AI assistants, not a crawler permissions file. For crawler permissions, see `/robots.txt`.
+
+## Core Pages
+
+- [Home](https://lab0.ai/): Primary overview of the site.
+
+## Discovery
+
+- [Sitemap](https://lab0.ai/sitemap-index.xml): Complete search-engine sitemap, if available.
+- [Robots policy](https://lab0.ai/robots.txt): Crawler permissions for automated agents.
