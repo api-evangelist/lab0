@@ -14,6 +14,17 @@ description: 'Lab0 (lab0.ai) is a San Francisco company in the Y Combinator Spri
   platform: it publishes a marketing site and an llms.txt, but no public API, developer
   portal, documentation, SDKs, or self-serve sign-up. It is sold as a managed engagement
   via founder contact and demo booking.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
